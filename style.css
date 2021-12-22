@@ -1,0 +1,16 @@
+h1 {
+  width: max-content;
+  margin: 300px auto;
+  font-family: "raleway", sans-serif;
+  color: chartreuse;
+  font-size: 70px;
+  text-shadow: 10px 10px 10px darkgreen;
+}
+
+h1:hover {
+  color: brown;
+  font-size: 75px;
+  text-shadow: 10px 10px 10px darkred;
+  transition: all 0.6s ease;
+  cursor: not-allowed;
+}
